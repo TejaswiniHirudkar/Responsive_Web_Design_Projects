@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.container{
+    width: 100%;
+   height: auto;
+   background-image: url(https://shots.codepen.io/leen624/pen/mdLjbbz-512.jpg?version=1664907060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding:10px;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(8, 2, 19);
+    color: whitesmoke;
+    padding-bottom:30px;
+    font-size: x-large;
+}
+div{
+    display: block;
+}
+
+.labels{
+    width:90%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.radiocb{
+    width:90%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.inputs{
+    margin:auto;
+    width: 90%;
+   height:8%;
+    padding: 10px;
+}
+
+
+.inputs input, select{
+    width:100%;
+    height: 100%;
+    margin: auto;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+}
+
+
+select, option{
+    color: black;
+}
+
+.button{
+    width: 100%;
+    margin: auto;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#submit{
+  background-color:green;
+  border:none;
+  font-size:20px;
+}
+
+@media(max-width:540px){
+    form{
+        width:80%;
+    }
+    .header{
+        width:90%;
+    }
+}
+

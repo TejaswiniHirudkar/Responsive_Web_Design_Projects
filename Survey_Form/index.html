@@ -1,0 +1,117 @@
+<Doctype="html">
+<html lang="en">
+<head>
+  <title>Survey Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <div class="container">
+    <div class="header">
+        <h1 id="title">FreeCodeCamp Survey Form</h1>
+
+        <p id="description">Thak you for taking the time to help us improve the platform</p>
+    </div>
+
+
+<form id="survey-form">
+
+<div class="labels">
+  <label for="name" id="name-label">Name</label>
+</div>
+<div class="inputs">
+  <input id="name" type="text" placeholder="Enter your name" required>
+</div>
+
+<div class="labels">
+  <label for="email" id="email-label">Email</label>
+</div>
+<div class="inputs">
+  <input id="email" type="email" placeholder="Enter your email" required>
+</div>
+
+<div class="labels">
+  <label for="number" id="number-label">Age(optional)</label>
+</div>
+<div class="inputs">
+  <input id="number" type="number" placeholder="Age" min="4" max="7">
+</div>
+
+<div class="labels">
+  <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+</div>
+<div class="inputs">
+  <select id="dropdown">
+    <option disabled selected>Select Current role</option>
+  <option>Student</option>
+  <option>Full Time Job</option>
+  <option>Full Time Learner</option>
+  <option>Prefer Not to Say</option>
+  <option>Others</option>
+</select>
+</div>
+
+<div class="labels">
+  <label for="recommend" id="recommend-label">Would you recommend freeCodeCamp to a friend?</label>
+</div>
+<div class="radiocb">
+  <div class="radioinput">
+    <input type="radio" name="radio" value="def">Definitely
+  </div>
+  <div class="radioinput">
+    <input type="radio" name="radio" value="maybe">Maybe
+  </div>
+  <div class="radioinput">
+    <input type="radio" name="radio" value="notsure">Not sure
+  </div> 
+</div>
+
+<div class="labels">
+  <label for="feature" id="feature-label">What is your favorite feature of freeCodeCamp?</label>
+</div>
+<div class="inputs">
+  <select id="dropdown">
+    <option disabled selected>Select an option</option>
+    <option>Challenges</option>
+    <option>Projects</option>
+    <option>Community</option>
+    <option>Open Source</option>
+  </select>
+</div>
+
+<div class="labels">
+  <label for="improve" id="improve-label">What would you like to see improved?</label>
+</div>
+<div class="radiocb">
+  <div class="cb">
+    <input type="checkbox" name="check" value="fep">Front-end Projects
+  </div>
+  <div class="cb">
+    <input type="checkbox" name="check" value="bep">Back-end Projects
+  </div>
+  <div class="cb">
+    <input type="checkbox" name="check" value="dv">Data Visualization
+  </div>
+  <div class="cb">
+    <input type="checkbox" name="check" value="challenge">Challenges
+  </div>
+</div>
+
+
+<div class="labels">
+  <label for="comments" id="comment-label">Any comments or suggesttions?</label>
+</div>
+<div class="inputs">
+    <textarea id="comment-label" placeholder="Enter your comments..."></textarea>
+</div>
+
+<div class="inputs">
+    <div class="button">
+       <button id="submit" type="submit">Submit</button>
+    </div>
+</div>
+
+
+</form>
+  </div>
+</body>
